@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>React Class-Based Component</Title>
+      <Shortcut>rfc</Shortcut>
+      <Author>Alex Barker</Author>
+      <Description>Class-Based React.js component</Description>
+    </Header>
+    <Snippet>
+      <Code Language="javascript">
+        <![CDATA[
+        import React from 'react';
+        class $Component$ extends React.Component{
+        
+            render () {
+                return (
+                
+                );
+            }
+        }
+        
+        export default $Component$;
+        
+        ]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>Component</ID>
+          <ToolTip>Component Name</ToolTip>
+          <Default>Component</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
