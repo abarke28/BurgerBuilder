@@ -61,11 +61,22 @@ class BurgerBuilder extends React.Component {
         }
     }
 
-    render () {
+    render() {
+        const disableInfo = {
+            ...this.state.ingredients
+        }
+
+        for (let key in disableInfo) {
+            disableInfo[key] = disableInfo[key] <= 0;
+        }
+
         return (
             <Aux>
                 <Burger ingredients={this.state.ingredients}/>
-                <BuildControls add={this.addIngredientHandler} remove={this.removeIngredientHandler}/>
+                <BuildControls
+                    add={this.addIngredientHandler}
+                    remove={this.removeIngredientHandler}
+                    disabled={disableInfo}/>
             </Aux>
         );
     }
