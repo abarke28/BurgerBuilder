@@ -3,11 +3,19 @@ import Burger from '../../components/Burger/Burger';
 import Aux from '../../hoc/Auxillery.js';
 
 class BurgerBuilder extends React.Component {
+    state = {
+        ingredients: {
+            salad: 1,
+            bacon: 1,
+            cheese: 1,
+            meat: 2
+        }
+    }
 
     render () {
         return (
             <Aux>
-                <Burger/>
+                <Burger ingredients={this.state.ingredients}/>
                 <div>Build Controls</div>
             </Aux>
         );
