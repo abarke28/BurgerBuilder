@@ -20,6 +20,9 @@
 
 .SideDrawer {
     background-color: white;
+    border-radius: 5px;
+    height: 35px;
+    width: 35px;
 }
 
 @media (min-width: 500px){

@@ -1,0 +1,17 @@
+.DrawerToggle {
+    background-color: white;
+    height: 75%;
+    align-content: center;
+}
+
+.DrawerToggle img {
+    padding: 10px 0px;
+    box-sizing:border-box;
+    height: 85%;
+}
+
+@media (min-width: 500px) {
+    .DrawerToggle {
+        display: none;
+    }
+}
