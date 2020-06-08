@@ -17,3 +17,23 @@
 .Toolbar nav{
     height: 100%;
 }
+
+.SideDrawer {
+    background-color: white;
+}
+
+@media (min-width: 500px){
+    .SideDrawer {
+        display: none;
+    }
+}
+
+.Logo {
+    height: 80%;
+}
+
+@media (max-width: 499px){
+    .DesktopOnly {
+        display: none;
+    }
+}

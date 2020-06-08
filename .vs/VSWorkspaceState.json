@@ -2,13 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\assets",
+    "\\src\\assets\\images",
     "\\src\\components",
-    "\\src\\components\\Burger",
-    "\\src\\components\\Burger\\Ingredients",
     "\\src\\components\\Layout",
-    "\\src\\containers",
-    "\\src\\containers\\BurgerBuilder"
+    "\\src\\components\\Logo",
+    "\\src\\components\\Navigation",
+    "\\src\\components\\Navigation\\Toolbar",
+    "\\src\\containers"
   ],
-  "SelectedNode": "\\src\\components\\Burger\\Ingredients\\BurgerIngredient.js",
+  "SelectedNode": "\\src\\assets\\logo.svg",
   "PreviewInSolutionExplorer": false
 }
