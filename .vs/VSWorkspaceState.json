@@ -4,9 +4,7 @@
     "\\src",
     "\\src\\components",
     "\\src\\components\\Burger",
-    "\\src\\components\\Burger\\OrderSummary",
-    "\\src\\components\\UI\\Modal",
-    "\\src\\containers\\BurgerBuilder"
+    "\\src\\components\\Burger\\OrderSummary"
   ],
   "SelectedNode": "\\src\\components\\Burger\\OrderSummary\\OrderSummary.js",
   "PreviewInSolutionExplorer": false
