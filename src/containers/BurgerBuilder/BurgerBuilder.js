@@ -4,8 +4,9 @@ import BuildControls from '../../components/Burger/BuildControls/BuildControls';
 import Spinner from '../../components/UI/Spinner/Spinner';
 import Modal from '../../components/UI/Modal/Modal';
 import OrderSummary from '../../components/Burger/OrderSummary/OrderSummary';
+import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
 import Aux from '../../hoc/Auxillery.js';
-import ordersEndpoint from '../../axios-orders';
+import axios from '../../axios-orders';
 
 const INGREDIENT_PRICES = {
     salad: 0.5,
@@ -112,7 +113,7 @@ class BurgerBuilder extends React.Component {
 
         
 
-        ordersEndpoint.post('/orders.json', order)
+        axios.post('/orders.json', order)
             .then(response => console.log(response))
             .catch(error => console.log(error));
 
@@ -160,4 +161,4 @@ class BurgerBuilder extends React.Component {
     }
 }
 
-export default BurgerBuilder;
+export default withErrorHandler(BurgerBuilder, axios);
