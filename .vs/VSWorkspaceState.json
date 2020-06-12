@@ -4,8 +4,13 @@
     "\\src",
     "\\src\\components",
     "\\src\\components\\Burger",
-    "\\src\\components\\Burger\\OrderSummary"
+    "\\src\\components\\Burger\\OrderSummary",
+    "\\src\\components\\UI",
+    "\\src\\components\\UI\\Modal",
+    "\\src\\components\\UI\\Spinner",
+    "\\src\\hoc",
+    "\\src\\hoc\\withErrorHandler"
   ],
-  "SelectedNode": "\\src\\components\\Burger\\OrderSummary\\OrderSummary.js",
+  "SelectedNode": "\\src\\hoc\\withErrorHandler\\withErrorHandler.js",
   "PreviewInSolutionExplorer": false
 }
