@@ -9,6 +9,7 @@
     "\\src\\components\\UI\\Modal",
     "\\src\\components\\UI\\Spinner",
     "\\src\\hoc",
+    "\\src\\hoc\\asyncComponent",
     "\\src\\hoc\\withErrorHandler"
   ],
   "PreviewInSolutionExplorer": false
