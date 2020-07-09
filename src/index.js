@@ -5,13 +5,14 @@ import App from './containers/App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
 
-const app = (
-    <BrowserRouter>
-        <App />
-    </BrowserRouter>    
+ReactDOM.render(
+    <React.StrictMode>
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
-
-ReactDOM.render(app, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
